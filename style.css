@@ -41,8 +41,8 @@ body{
 .progress-bar.active{
    border-color: var(--border-fill);
 }
-/* 
-.progress-line::before{
+
+.progress-container::before{
     content: "";
     background-color: var(--border-empty);
     position: absolute;  
@@ -52,7 +52,7 @@ body{
     height: 4px;
     width: 100%;
     z-index: -1;
-} */
+}
 
 .progress-line{
     background-color: var(--border-fill);
